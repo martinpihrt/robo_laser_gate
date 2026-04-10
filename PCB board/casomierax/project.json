@@ -1,0 +1,1444 @@
+{
+  "schematics": {
+    "7036b6bf893342488b0e0b569a3ef818": {
+      "name": "Schematic1",
+      "sheets": [
+        {
+          "name": "P1",
+          "id": 1,
+          "uuid": "d12da80098a04f97af80a07f82d18a2f"
+        }
+      ]
+    }
+  },
+  "pcbs": {
+    "6ee3248582f243c39957ca2415e7f5d7": "PCB1"
+  },
+  "panels": {},
+  "symbols": {
+    "e7d8c7f0d3a7467bbee3af7e583a1a1a": {
+      "source": "383d752f5c9243c8a82a054d0337f883|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "Drawing-Symbol_A4",
+      "version": "1734578900",
+      "type": 20
+    },
+    "26a9ee3ae40c4f62b44095befef11ac1": {
+      "source": "d4db1830e8f4420ba6579fcdf0f106f2|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Transistors\"]",
+      "title": "BC817-40_C545563",
+      "version": "1660803007",
+      "type": 2
+    },
+    "17b04ff2012e4914987c801199a16a36": {
+      "source": "8da2444531a94765a4b178592709f49c|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]",
+      "title": "RC0805FR-07100KL",
+      "version": "1660802657",
+      "type": 2
+    },
+    "8b3420dde0e040368f39cb78384842b5": {
+      "source": "029dc91398624049926195124347581a|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "GND",
+      "version": "1660803029",
+      "type": 18
+    },
+    "6b0cc8b08b284bf89bd07ef63675012e": {
+      "source": "48dfb95b146c447a9fd6d5869a609008|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "VCC",
+      "version": "1660802272",
+      "type": 18
+    },
+    "323b4b78e05c402f93622f21882c3f27": {
+      "source": "80265cee92204111a70d762ee4170850|micek",
+      "desc": "Development module Raspberry ZERO",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "RP_zero",
+      "version": "1697804381",
+      "type": 2
+    },
+    "7c07c96028a744289f6a3d6187f6e37e": {
+      "source": "4352df557e6a486e85590dfbac0b8868|RP",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "KDT00030",
+      "version": "1748634813",
+      "type": 2
+    },
+    "5830ee25011f4949bc78c5afef07ef02": {
+      "source": "a2a61cb04ca9498896dac9b196f6e07f|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]",
+      "title": "TMK212BBJ106KGHT",
+      "version": "1660803075",
+      "type": 2
+    },
+    "c674c5fe18c24e34b9bad78d07fb1f2c": {
+      "source": "bcbb9be1cc6e448680baef36b3a2135d|micek",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "PIN3",
+      "version": "1696756196",
+      "type": 2
+    },
+    "2415be3eb1644469ba5445fa434e982e": {
+      "source": "6b0d13afe59e4f669c989bd3e956d7c3|micek",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "PIN4",
+      "version": "1696756338",
+      "type": 2
+    },
+    "abe5114b412d405b8d71eee2ac5e9da0": {
+      "source": "62747c5c99924d6980b4af76102f3cc3|micek",
+      "desc": "Buzzer",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "CSS-J4D20",
+      "version": "1696517251",
+      "type": 2
+    },
+    "f8ad32abba2040bbbab18241bb96a990": {
+      "source": "372178a6c4ee42b090185776cadf3c94|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "LMBT3904LT1G",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Transistors/Thyristors\",\"Bipolar (BJT)\"]",
+      "title": "LMBT3904LT1G",
+      "version": "1701403827",
+      "type": 2
+    },
+    "7a26cec4766446e28738f83960734755": {
+      "source": "c6dbece2555f4129a8908d8ad55db7f5|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Diodes\"]",
+      "title": "1N4148W_C109203",
+      "version": "1660799476",
+      "type": 2
+    },
+    "b39d756c30104175af9944a1c68bd1f3": {
+      "source": "e733cb438fa042ae9ade3b3377c5908a|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "IN",
+      "version": "1660803040",
+      "type": 19
+    },
+    "61e40a64fc4b499f83f29b28429748c7": {
+      "source": "8a04e22374494d55957a030ec33de1cb|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "5-Voltage",
+      "version": "1660802884",
+      "type": 18
+    },
+    "a22b1e970d7444df91c99d4787635d70": {
+      "source": "68a78ebf2a4b4d1da2e7639433bfc6e7|micek",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "PIN2",
+      "version": "1696756064",
+      "type": 2
+    },
+    "c88ccd4677694e29b65e805bb699d3c4": {
+      "source": "059e9a631dcf480cacbb49f9f08d1bdc|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Connectors\",\"Pin Headers\"]",
+      "title": "HTSW-102-05-L-S",
+      "version": "1702715407",
+      "type": 2
+    },
+    "8883524a539d4c2c935f470e8e3b3968": {
+      "source": "691d8e41d0cf442a9d78d75d421e5b5f|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]",
+      "title": "OUT",
+      "version": "1660802371",
+      "type": 19
+    },
+    "54e891803479413a96b373f78b96c12d": {
+      "source": "9c70d3e0f85744cf8178f206e44faeed|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Transistors\",\"MOSFETs\"]",
+      "title": "FDC5614P",
+      "version": "1660802919",
+      "type": 2
+    },
+    "d174652f036b493dbdf6befa09bb24c4": {
+      "source": "0b101969ac7c4231a3805f350d902ad3|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "Adjustable Precision Shunt Regulator, 34 ppm  degC, 100 mA, -40 to 85 degC, 3-pin SOT-23 (DBZ), Green (RoHS  no SbBr)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Power Management ICs\"]",
+      "title": "TL431BIDBZR",
+      "version": "1660802618",
+      "type": 2
+    },
+    "c827aa5310b84067a4f56e9a914ae2c2": {
+      "source": "02d28a254e1c48abbe2433bf465b93ad|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"\",\"\"]",
+      "title": "Short-Symbol",
+      "version": "1660802701",
+      "type": 22
+    },
+    "72f79ca087a24023971bf43d2d9b8f78": {
+      "source": "5c4b7698a5c843819d3da96946af2a63|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Transistors\"]",
+      "title": "BC856BLT1G",
+      "version": "1660802439",
+      "type": 2
+    },
+    "729bd86c86a84280ade017a88047be19": {
+      "source": "57af9b055fd5485eb11143c56460524f|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "Adjustable Precision Shunt Regulator, 34 ppm  degC, 100 mA, -40 to 85 degC, 3-pin SOT-23 (DBZ), Green (RoHS  no SbBr)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Power Management ICs\"]",
+      "title": "TL431AIDBZR",
+      "version": "1660802812",
+      "type": 2
+    },
+    "e0e1031b18e24d5b9a99962f5c7abee2": {
+      "source": "ad6f8ee5fae6417a852adbd08dcb53f3|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "LED",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Optoelectronics\"]",
+      "title": "FC-2012HYK-588J",
+      "version": "1660802947",
+      "type": 2
+    },
+    "68b64ab6e93740ac8da41b38883da8cd": {
+      "source": "3f88c8145b90441c8ada35528983bfc8|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "LED 0805",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Optoelectronics\"]",
+      "title": "17-21/GHC-XS1T2M/3T",
+      "version": "1660802941",
+      "type": 2
+    },
+    "15b333e1fde64d59b82b53ce3d4740f7": {
+      "source": "cd0f4771af37457b9e6c37d4d32ccf90|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Connectors\"]",
+      "title": "PZ254R-11-04P",
+      "version": "1660802561",
+      "type": 2
+    },
+    "dcb721a9693a4e45ad0813275da85235": {
+      "source": "9ec93f639a874ee58b76ff14fa75d4ac|0819f05c4eef4c71ace90d822a990e87",
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"Connectors\"]",
+      "title": "PZ254V-11-04P",
+      "version": "1660802950",
+      "type": 2
+    }
+  },
+  "footprints": {
+    "b0c5e947fb2147fabbab0ca2c7fe009e": {
+      "title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "source": "bdad16194d454cb292a50525f39c3ffd|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660802179",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-23-3\"]"
+    },
+    "0ae1f543bb544f09824f18348926c714": {
+      "title": "R0805_NEW",
+      "source": "f48676ddccc34ea583400ee06908eccf|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660802442",
+      "type": 4,
+      "desc": "该封装用于内部测试",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"R0805\"]"
+    },
+    "e002681119e849e8aecc9ce17778fb11": {
+      "title": "C0805",
+      "source": "ccb32feceadc4298b406326a506ce8e7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660802181",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"CAP-SMD\"]"
+    },
+    "90fe64286e294ecca13e9aadd8e08dcf": {
+      "title": "RP_ZERO",
+      "source": "97ac0d3e7aec40a9bf503ad9dcda7dd5|micek",
+      "version": "1697798676",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "d90dbb4b510b4b51aec92d184175dcfa": {
+      "title": "PIN3",
+      "source": "fa8840c0735446dd86838d135bc19c18|micek",
+      "version": "1696756773",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "2b72d734baff4f019607255669a62161": {
+      "title": "PIN4",
+      "source": "3cb359ced6a24874893cf32186cbef03|micek",
+      "version": "1696756942",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "e306648bac434dc8898630becc122b01": {
+      "title": "BUZ9x9",
+      "source": "134c33605278413ba7a823e72cf0b292|micek",
+      "version": "1696516445",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "fd3a2f910ae641b1b4df0c45650bf6a8": {
+      "title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+      "source": "18f92042a8ba46109ed61a02a6753de7|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1651211575",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-23-3\"]"
+    },
+    "1e5e06023ea14dce85d45e3ceb21f5da": {
+      "title": "SOD-123_L2.8-W1.8-LS3.7-RD",
+      "source": "eabc9173c4664f8a90fe92f757e4228f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660798584",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOD-123\"]"
+    },
+    "a61bc03a42694880b9219c98c9069625": {
+      "title": "PIN2",
+      "source": "94b69b90b28f446ea4e690dc9ee49535|micek",
+      "version": "1696756642",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[]"
+    },
+    "0c7d8746755d4bd7ba4f565c117fe65f": {
+      "title": "HDR-TH_2P-P2.54-V-M-1",
+      "source": "22176da086af4ffba6094b8c5388d2db|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1665054900",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "84f2f1f6f0db436aa13288e9d04f7dd8": {
+      "title": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+      "source": "47d9e12405e949c2b190fdcf22199fbb|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660802184",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-23-6\"]"
+    },
+    "8bc67f4a4ae84e2d9d27917041b0137d": {
+      "title": "SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR",
+      "source": "078e43bc93394f49815211c4fd533d19|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660802178",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"SOT-23-3\"]"
+    },
+    "6b01587976954d87bc32fe9460dfd5b1": {
+      "title": "LED0805-R-RD",
+      "source": "7ff5a6319a234ee3b7e4db4f322e8738|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660802179",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"LED0805\"]"
+    },
+    "3f8dbb03587b44dc8baa4fdcfa6ed6ed": {
+      "title": "KDT",
+      "source": "57b8a90163014b1cb746f5b9fc689259|RP",
+      "version": "1748635165",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "522c929acbfb4e5e9114b252c726afb5": {
+      "title": "HDR-TH_4P-P2.54-H-M-W10.4",
+      "source": "44e74d88f42a465ba3f766e336c4801a|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660802561",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    },
+    "51175c3a972d4b1a812d06fa61499c8a": {
+      "title": "HDR-TH_4P-P2.54-V-M",
+      "source": "55a1ecf332f24bc1b8208f936e198213|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660802193",
+      "type": 4,
+      "desc": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "custom_tags": "[\"HDR-TH\"]"
+    }
+  },
+  "devices": {
+    "b65d1b8d4aaf4cb29278b62f75c74ae0": {
+      "title": "Drawing-Symbol_A4",
+      "attributes": {
+        "@Project Name": "Project Name",
+        "@Page Count": "3",
+        "@Update Date": "2021.11.05",
+        "@Create Date": "2021.11.05",
+        "@Schematic Name": "Schematic Name",
+        "@Page No": "1",
+        "@Page Name": "P1",
+        "Company": "",
+        "Reviewed": "Micek",
+        "Version": "V1.0",
+        "Page Size": "A4",
+        "Drawn": "Micek",
+        "Name": "",
+        "@Create Time": "",
+        "@Update Time": "",
+        "Border": "1",
+        "Width": "1170",
+        "Height": "825",
+        "Region Start": "1",
+        "X Region Count": "6",
+        "Y Region Count": "4",
+        "Blade Width": "10",
+        "Color": "",
+        "Title Block Position": "3",
+        "Title Block": "1",
+        "@Board Name": "",
+        "Symbol": "e7d8c7f0d3a7467bbee3af7e583a1a1a",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "754952feec9e48d6afd574513e1ca00b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1734571700",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "69a3aa9a43cf4e6c8f9fc3f430093f70": {
+      "title": "BC817-40",
+      "attributes": {
+        "LCSC Part Name": "BC817-40",
+        "Supplier Part": "C545563",
+        "Manufacturer": "UMW(友台半导体)",
+        "Manufacturer Part": "BC817-40",
+        "Supplier Footprint": "SOT-23-3",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20211011/817B76F835D11BFCA49A16ACCCB71216.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "26a9ee3ae40c4f62b44095befef11ac1",
+        "Designator": "Q?",
+        "Footprint": "b0c5e947fb2147fabbab0ca2c7fe009e",
+        "3D Model": "c62791f0466c4ae2a892c056b845b0ca",
+        "3D Model Title": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+        "3D Model Transform": "98.425,114.173,0,180,0,0,0.0005,-0.0005,0",
+        "Transistor Type": "",
+        "Collector-Emitter Breakdown Voltage (Vceo)": "",
+        "Collector Current (Ic)": "",
+        "Power Dissipation (Pd)": "",
+        "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)": "700mV@500mA,50mA",
+        "DC Current Gain (hFE@Ic,Vce)": "250@100mA,1V",
+        "Transition Frequency (fT)": "100MHz",
+        "Operating Temperature": "+150℃@(Tj)",
+        "Description": "Transistor Type: Collector-Emitter Breakdown Voltage (Vceo): Collector Current (Ic): Power Dissipation (Pd): Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib):700mV@500mA,50mA DC Current Gain (hFE@Ic,Vce):250@100mA,1V Transition Frequency (fT):100MHz Operating Temperature:+150℃@(Tj) Operating Temperature:+150℃@(Tj)"
+      },
+      "description": "Transistor Type: Collector-Emitter Breakdown Voltage (Vceo): Collector Current (Ic): Power Dissipation (Pd): Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib):700mV@500mA,50mA DC Current Gain (hFE@Ic,Vce):250@100mA,1V Transition Frequency (fT):100MHz Operating Temperature:+150℃@(Tj) Operating Temperature:+150℃@(Tj)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "e808c6d3b623407da2f5b9c31b1d303f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795807",
+      "custom_tags": "[\"Transistors\"]"
+    },
+    "cfcb9dfd1d96498ba6e56cb72b49f72c": {
+      "title": "RC0805FR-07100KL",
+      "attributes": {
+        "LCSC Part Name": "100kΩ ±1% 125mW",
+        "Supplier Part": "C96346",
+        "Manufacturer": "YAGEO(国巨)",
+        "Manufacturer Part": "RC0805FR-07100KL",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170304/1488621208805.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "17b04ff2012e4914987c801199a16a36",
+        "Designator": "R?",
+        "Footprint": "0ae1f543bb544f09824f18348926c714",
+        "3D Model": "37a81e68749a4138bd2dfa6897b24b85",
+        "3D Model Title": "R0805_L2.0-W1.3-H0.6",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,-0.0005,0",
+        "Value": "100kΩ",
+        "Tolerance": "±1%",
+        "Power(Watts)": "",
+        "Temperature Coefficient": "±100ppm/℃",
+        "Overload Voltage (Max)": "",
+        "Operating Temperature Range": "-55℃~+155℃",
+        "Description": "Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+      },
+      "description": "Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Overload Voltage (Max): Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "8e173887d7d24dbe950578be7cc48781|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795457",
+      "custom_tags": "[\"Resistors\",\"Chip Resistor - Surface Mount\"]"
+    },
+    "7a7c1c7997bf4c91afa08b643196dba5": {
+      "title": "Ground-GND",
+      "attributes": {
+        "Symbol": "8b3420dde0e040368f39cb78384842b5",
+        "Footprint": "",
+        "Description": "netlabel-gnd"
+      },
+      "description": "netlabel-gnd",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "eebd21089444443ab2a2e9a384b3a8e2|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1634886",
+      "custom_tags": "[]"
+    },
+    "8e72bd94171449bcb97caefeaa1ff84b": {
+      "title": "Power-VCC",
+      "attributes": {
+        "Symbol": "6b0cc8b08b284bf89bd07ef63675012e",
+        "Global Net Name": "VCC",
+        "Footprint": "",
+        "Description": "netlabel-vcc"
+      },
+      "description": "netlabel-vcc",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "1af4157e802b42ed9e68371bbf429f12|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1634886",
+      "custom_tags": "[]"
+    },
+    "7aaad48c79c1435393fd2a344e53ad46": {
+      "title": "RP_zero",
+      "attributes": {
+        "Symbol": "323b4b78e05c402f93622f21882c3f27",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Footprint": "",
+        "Name": "",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": "Development module Raspberry ZERO"
+      },
+      "description": "Development module Raspberry ZERO",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "377faf91ee6a4297b84ff9af3bdd7361|micek",
+      "version": "1697797181",
+      "custom_tags": "[]"
+    },
+    "eb51ebd3c2e24036a84eb7251534719b": {
+      "title": "KDT00030",
+      "attributes": {
+        "Symbol": "7c07c96028a744289f6a3d6187f6e37e",
+        "Name": "",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Footprint": "",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d50642d2b99d4f749b8e5f07a5e1cc7e|RP",
+      "version": "1748627613",
+      "custom_tags": "[]"
+    },
+    "1ae6f235e61748d298b7331daeed590f": {
+      "title": "TMK212BBJ106KGHT",
+      "attributes": {
+        "LCSC Part Name": "10uF ±10% 25V",
+        "Supplier Part": "C386084",
+        "Manufacturer": "TAIYO YUDEN(太诱)",
+        "Manufacturer Part": "TMK212BBJ106KGHT",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20190827/C386084_49734F228C11E6784046689EB1EEAB2A.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "5830ee25011f4949bc78c5afef07ef02",
+        "Designator": "C?",
+        "Footprint": "e002681119e849e8aecc9ce17778fb11",
+        "3D Model": "1ba041120af144c991958decab20d241",
+        "3D Model Title": "C0805_L2.0-W1.3-H1.3",
+        "3D Model Transform": "78.74,51.181,0,0,0,0,0,0.0005,0",
+        "Value": "10uF",
+        "Tolerance": "±10%",
+        "Voltage Rated": "",
+        "Temperature Coefficient": "",
+        "Description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:"
+      },
+      "description": "Capacitance: Tolerance:±10% Tolerance:±10% Voltage Rated: Temperature Coefficient:",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "fedee36ea27244219ec51e6c2b0d604f|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795875",
+      "custom_tags": "[\"Capacitors\",\"Multilayer Ceramic Capacitors MLCC - SMD/SMT\"]"
+    },
+    "b35fce8ec628442abb5138ef7558d474": {
+      "title": "PIN3",
+      "attributes": {
+        "Symbol": "c674c5fe18c24e34b9bad78d07fb1f2c",
+        "Footprint": "d90dbb4b510b4b51aec92d184175dcfa",
+        "Name": "",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "17b05e151a5d46fab62c0885e04cab0d|micek",
+      "version": "1697005780",
+      "custom_tags": "[]"
+    },
+    "d88f6bf09de34b7faf753225d74d0dd9": {
+      "title": "PIN4",
+      "attributes": {
+        "Symbol": "2415be3eb1644469ba5445fa434e982e",
+        "Footprint": "2b72d734baff4f019607255669a62161",
+        "Name": "",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "59e6d6a0bbf04ed481d344cb8bdb509f|micek",
+      "version": "1697005741",
+      "custom_tags": "[]"
+    },
+    "d674806a236b42549344631978610f25": {
+      "title": "CSS-J4D20",
+      "attributes": {
+        "Symbol": "abe5114b412d405b8d71eee2ac5e9da0",
+        "Designator": "U?",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Footprint": "e306648bac434dc8898630becc122b01",
+        "Name": "",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": "Buzzer"
+      },
+      "description": "Buzzer",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "6414c420b69843538c4768020ffa70e9|micek",
+      "version": "1697005881",
+      "custom_tags": "[]"
+    },
+    "85c40427c60e4b9e9f9f3ed07e62e83e": {
+      "title": "LMBT3904LT1G",
+      "attributes": {
+        "LCSC Part Name": "耐压:40V 电流:200mA NPN",
+        "Supplier Part": "C49580",
+        "Manufacturer": "LRC(乐山无线电)",
+        "Manufacturer Part": "LMBT3904LT1G",
+        "Supplier Footprint": "SOT-23",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20150518/1457707314383.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "f8ad32abba2040bbbab18241bb96a990",
+        "Designator": "Q?",
+        "Footprint": "fd3a2f910ae641b1b4df0c45650bf6a8",
+        "3D Model": "62a57c6760504a01965db6419a6d07df",
+        "3D Model Title": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+        "3D Model Transform": "98.425,114.173,0,180,0,0,0.0005,-0.0005,0",
+        "Transistor Type": "",
+        "Collector Current (Ic)": "",
+        "Collector-Emitter Breakdown Voltage (Vceo)": "",
+        "Power Dissipation (Pd)": "",
+        "DC Current Gain (hFE@Ic,Vce)": "100@10mA,1V",
+        "Transition Frequency (fT)": "300MHz",
+        "Collector Cut-Off Current (Icbo)": "-",
+        "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)": "300mV@50mA,5mA",
+        "Operating Temperature": "-55℃~+150℃@(Tj)",
+        "Name": "={Manufacturer Part}",
+        "Description": "Transistor Type: Collector Current (Ic): Collector-Emitter Breakdown Voltage (Vceo): Power Dissipation (Pd): DC Current Gain (hFE@Ic,Vce):100@10mA,1V DC Current Gain (hFE@Ic,Vce):100@10mA,1V Transition Frequency (fT):300MHz Collector Cut-Off Current (Icbo"
+      },
+      "description": "Transistor Type: Collector Current (Ic): Collector-Emitter Breakdown Voltage (Vceo): Power Dissipation (Pd): DC Current Gain (hFE@Ic,Vce):100@10mA,1V DC Current Gain (hFE@Ic,Vce):100@10mA,1V Transition Frequency (fT):300MHz Collector Cut-Off Current (Icbo",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        "https://alimg.szlcsc.com/upload/public/product/middle/20221230/E2E9F67F8B26BD7F60C350ED8B4EA694.jpg"
+      ],
+      "source": "c07ea7f28a17476880bd0d794a279bf2|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1662493222",
+      "custom_tags": "[\"Transistors/Thyristors\",\"Bipolar (BJT)\"]"
+    },
+    "e2822a116ff64d18b3b9e4601c2e7f13": {
+      "title": "1N4148W",
+      "attributes": {
+        "LCSC Part Name": "75V 150mA 4ns",
+        "Supplier Part": "C109203",
+        "Manufacturer": "SHIKUES(时科)",
+        "Manufacturer Part": "1N4148W",
+        "Supplier Footprint": "SOD-123",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20170717/C109203_1500269933227820712.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "7a26cec4766446e28738f83960734755",
+        "Designator": "D?",
+        "Footprint": "1e5e06023ea14dce85d45e3ceb21f5da",
+        "3D Model": "7884390a25fb4c08947731ebfba7e3f8",
+        "3D Model Title": "SOD-123_L2.8-W1.8-LS3.7-RD",
+        "3D Model Transform": "144.8816,62.992,0,0,0,0,0,0,0",
+        "Diode Configuration": "",
+        "Power Dissipation": "",
+        "Reverse Voltage (Vr)": "",
+        "Average Rectified Current (Io)": "",
+        "Forward Voltage (Vf@If)": "1.25V@150mA",
+        "Reverse Leakage Current": "1μA@75V",
+        "Reverse Recovery Time (trr)": "",
+        "Operating Temperature": "+150℃@(Tj)",
+        "Description": "Diode Configuration: Power Dissipation: Reverse Voltage (Vr): Average Rectified Current (Io): Forward Voltage (Vf@If):1.25V@150mA Reverse Leakage Current:1μA@75V Reverse Recovery Time (trr): Operating Temperature:+150℃@(Tj) Operating Temperature:+150℃@(Tj)"
+      },
+      "description": "Diode Configuration: Power Dissipation: Reverse Voltage (Vr): Average Rectified Current (Io): Forward Voltage (Vf@If):1.25V@150mA Reverse Leakage Current:1μA@75V Reverse Recovery Time (trr): Operating Temperature:+150℃@(Tj) Operating Temperature:+150℃@(Tj)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "ff291442a6754c999906ffddaa4de3b5|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795876",
+      "custom_tags": "[\"Diodes\"]"
+    },
+    "67b71e25a8f94351b5cf50c7f96df3b5": {
+      "title": "Netport-IN",
+      "attributes": {
+        "Symbol": "b39d756c30104175af9944a1c68bd1f3",
+        "Footprint": "",
+        "Description": "netport-in"
+      },
+      "description": "netport-in",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "f35c36484a25457782c9e38d43d45b50|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1634885",
+      "custom_tags": "[]"
+    },
+    "1317243cfa7b4a9aac1bd6756798c21d": {
+      "title": "Power-5V",
+      "attributes": {
+        "Symbol": "61e40a64fc4b499f83f29b28429748c7",
+        "Global Net Name": "+5V",
+        "Footprint": "",
+        "Description": "netlabel-5v"
+      },
+      "description": "netlabel-5v",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "c19033e4f560428090e4fc097513e5e3|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1634886",
+      "custom_tags": "[]"
+    },
+    "a944817e135a492d9659f150e7ac6684": {
+      "title": "PIN2",
+      "attributes": {
+        "Symbol": "a22b1e970d7444df91c99d4787635d70",
+        "Footprint": "a61bc03a42694880b9219c98c9069625",
+        "Name": "",
+        "3D Model": "",
+        "3D Model Title": "",
+        "3D Model Transform": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "7b9c5152173c4eb1a9e157fbfc63a952|micek",
+      "version": "1697005802",
+      "custom_tags": "[]"
+    },
+    "d12772a9802146158de195e996043e0c": {
+      "title": "HTSW-102-05-L-S",
+      "attributes": {
+        "LCSC Part Name": "间距:2.54mm 直插",
+        "Supplier Part": "C6964758",
+        "Manufacturer": "SAMTEC",
+        "Manufacturer Part": "HTSW-102-05-L-S",
+        "Supplier Footprint": "插件,P=2.54mm",
+        "JLCPCB Part Class": "",
+        "Datasheet": "",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "c88ccd4677694e29b65e805bb699d3c4",
+        "Designator": "U?",
+        "Footprint": "0c7d8746755d4bd7ba4f565c117fe65f",
+        "3D Model": "e506c2b6a89c4aacb020357246aab725",
+        "3D Model Title": "HDR-M-2.54_1x2",
+        "3D Model Transform": "200,100,0,0,0,0,0,0,-118.11",
+        "Pitch": "2.54mm",
+        "Number of Pins": "2P",
+        "Mounting Type": "Straight",
+        "Number of Rows": "Plugin",
+        "Contact Material": "",
+        "Contact Plating": "Tin",
+        "Operating Temperature Range": "-55℃~+125℃",
+        "Name": "={Manufacturer Part}",
+        "Description": "Pitch:2.54mm Number of Pins:2P Mounting Type:Straight Number of Rows:Plugin Contact Material: Contact Plating:Tin Operating Temperature Range:-55℃~+125℃ Operating Temperature Range:-55℃~+125℃"
+      },
+      "description": "Pitch:2.54mm Number of Pins:2P Mounting Type:Straight Number of Rows:Plugin Contact Material: Contact Plating:Tin Operating Temperature Range:-55℃~+125℃ Operating Temperature Range:-55℃~+125℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "20cd975f92fa47919adbbeaa35b9285e|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1702716009",
+      "custom_tags": "[\"Connectors\",\"Pin Headers\"]"
+    },
+    "5732e278f4dd4da9a0dc7f6ca5336dc4": {
+      "title": "Netport-OUT",
+      "attributes": {
+        "Symbol": "8883524a539d4c2c935f470e8e3b3968",
+        "Footprint": "",
+        "Description": "netport-out"
+      },
+      "description": "netport-out",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "37fdad6e99f54a4f9aa717ea09794ac1|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1634885",
+      "custom_tags": "[]"
+    },
+    "17c3ec01394e47b78af2e58ed3b8f636": {
+      "title": "FDC5614P",
+      "attributes": {
+        "LCSC Part Name": "P沟道 60V 3A",
+        "Supplier Part": "C48167",
+        "Manufacturer": "onsemi(安森美)",
+        "Manufacturer Part": "FDC5614P",
+        "Supplier Footprint": "SOT-23-6",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20150504/1457707283368.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "54e891803479413a96b373f78b96c12d",
+        "Designator": "Q?",
+        "Footprint": "84f2f1f6f0db436aa13288e9d04f7dd8",
+        "3D Model": "18da8f6c14a34920b3e136b5c401a119",
+        "3D Model Title": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+        "3D Model Transform": "110.73671,114.173,0,180,0,0,0.001,-0.003,0",
+        "Type": "",
+        "Drain Source Voltage (Vdss)": "",
+        "Continuous Drain Current (Id)": "",
+        "Power Dissipation (Pd)": "",
+        "Drain Source On Resistance (RDS(on)@Vgs,Id)": "105mΩ@10V,3A",
+        "Gate Threshold Voltage (Vgs(th)@Id)": "3V@250μA",
+        "Description": "Type: Drain Source Voltage (Vdss): Continuous Drain Current (Id): Power Dissipation (Pd): Drain Source On Resistance (RDS(on)@Vgs,Id):105mΩ@10V,3A Gate Threshold Voltage (Vgs(th)@Id):3V@250μA"
+      },
+      "description": "Type: Drain Source Voltage (Vdss): Continuous Drain Current (Id): Power Dissipation (Pd): Drain Source On Resistance (RDS(on)@Vgs,Id):105mΩ@10V,3A Gate Threshold Voltage (Vgs(th)@Id):3V@250μA",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "cbe61db26b904944a330545f86f6b76d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795719",
+      "custom_tags": "[\"Transistors\",\"MOSFETs\"]"
+    },
+    "69e33512d18c480194efcbf8b2065588": {
+      "title": "TL431BIDBZR",
+      "attributes": {
+        "LCSC Part Name": "2.495V~36V 100mA",
+        "Supplier Part": "C41283",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "TL431BIDBZR",
+        "Supplier Footprint": "SOT-23(SOT-23-3)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20150601/1457707315922.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "d174652f036b493dbdf6befa09bb24c4",
+        "Designator": "U?",
+        "Footprint": "b0c5e947fb2147fabbab0ca2c7fe009e",
+        "3D Model": "c62791f0466c4ae2a892c056b845b0ca",
+        "3D Model Title": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+        "3D Model Transform": "98.425,114.173,0,180,0,0,0.0005,-0.0005,0",
+        "Output Type": "Programmable",
+        "Output Voltage": "2.495V~36V",
+        "Output Current": "100mA",
+        "Tolerance": "±0.5%",
+        "Minimum Cathode Current for Regulation": "700μA",
+        "Operating Temperature": "-40℃~+85℃@(TA)",
+        "Description": "Output Type:Programmable Output Voltage:2.495V~36V Output Voltage:2.495V~36V Output Current:100mA Tolerance:±0.5% Tolerance:±0.5% Minimum Cathode Current for Regulation:700μA Operating Temperature:-40℃~+85℃@(TA) Operating Temperature:-40℃~+85℃@(TA)"
+      },
+      "description": "Output Type:Programmable Output Voltage:2.495V~36V Output Voltage:2.495V~36V Output Current:100mA Tolerance:±0.5% Tolerance:±0.5% Minimum Cathode Current for Regulation:700μA Operating Temperature:-40℃~+85℃@(TA) Operating Temperature:-40℃~+85℃@(TA)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "82be772c252e4d5abcdd14956c378eda|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795418",
+      "custom_tags": "[\"Power Management ICs\"]"
+    },
+    "cfe257e82a53451a99367d89d9f16f9d": {
+      "title": "Short-Symbol",
+      "attributes": {
+        "Symbol": "c827aa5310b84067a4f56e9a914ae2c2",
+        "Footprint": "",
+        "Description": ""
+      },
+      "description": "",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "969e264ca0d545929f65fa01b3959f6d|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1630399",
+      "custom_tags": "[\"\",\"\"]"
+    },
+    "24c13937cff449ec878e7c8e6c8a6f90": {
+      "title": "BC856BLT1G",
+      "attributes": {
+        "LCSC Part Name": "BC856BLT1G",
+        "Supplier Part": "C165609",
+        "Manufacturer": "onsemi(安森美)",
+        "Manufacturer Part": "BC856BLT1G",
+        "Supplier Footprint": "SOT-23(SOT-23-3)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180111/C165609_15156381190731255088.PDF",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "72f79ca087a24023971bf43d2d9b8f78",
+        "Designator": "Q?",
+        "Footprint": "8bc67f4a4ae84e2d9d27917041b0137d",
+        "3D Model": "89cb27a44ab2466697082bb9fd73a7d0",
+        "3D Model Title": "SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95",
+        "3D Model Transform": "110.236,114.173,0,180,0,0,-0.005,0.0005,0",
+        "Transistor Type": "",
+        "Collector-Emitter Breakdown Voltage (Vceo)": "",
+        "Collector Current (Ic)": "",
+        "Power Dissipation (Pd)": "",
+        "Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib)": "650mV@100mA,5mA",
+        "DC Current Gain (hFE@Ic,Vce)": "290@2mA,5V",
+        "Transition Frequency (fT)": "100MHz",
+        "Operating Temperature": "-55℃~+150℃@(Tj)",
+        "Description": "Transistor Type: Collector-Emitter Breakdown Voltage (Vceo): Collector Current (Ic): Power Dissipation (Pd): Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib):650mV@100mA,5mA DC Current Gain (hFE@Ic,Vce):290@2mA,5V Transition Frequency (fT):100MHz Operating Temperature:-55℃~+150℃@(Tj) Operating Temperature:-55℃~+150℃@(Tj)"
+      },
+      "description": "Transistor Type: Collector-Emitter Breakdown Voltage (Vceo): Collector Current (Ic): Power Dissipation (Pd): Collector-Emitter Saturation Voltage (VCE(sat)@Ic,Ib):650mV@100mA,5mA DC Current Gain (hFE@Ic,Vce):290@2mA,5V Transition Frequency (fT):100MHz Operating Temperature:-55℃~+150℃@(Tj) Operating Temperature:-55℃~+150℃@(Tj)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "4dfe6f245bb943dd8f744292a06c7a94|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795239",
+      "custom_tags": "[\"Transistors\"]"
+    },
+    "a20beca5972148a0849b77105812c6a0": {
+      "title": "TL431AIDBZR",
+      "attributes": {
+        "LCSC Part Name": "2.495V~36V 100mA",
+        "Supplier Part": "C23892",
+        "Manufacturer": "TI(德州仪器)",
+        "Manufacturer Part": "TL431AIDBZR",
+        "Supplier Footprint": "SOT-23(SOT-23-3)",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20140215/1457706787009.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "729bd86c86a84280ade017a88047be19",
+        "Designator": "U?",
+        "Footprint": "8bc67f4a4ae84e2d9d27917041b0137d",
+        "3D Model": "89cb27a44ab2466697082bb9fd73a7d0",
+        "3D Model Title": "SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95",
+        "3D Model Transform": "110.236,114.173,0,180,0,0,-0.005,0.0005,0",
+        "Output Type": "Adjustable",
+        "Output Voltage": "2.495V~36V",
+        "Output Current": "100mA",
+        "Tolerance": "±1%",
+        "Minimum Cathode Current for Regulation": "700μA",
+        "Operating Temperature": "-40℃~+85℃@(TA)",
+        "Description": "Output Type:Adjustable Output Voltage:2.495V~36V Output Voltage:2.495V~36V Output Current:100mA Tolerance:±1% Tolerance:±1% Minimum Cathode Current for Regulation:700μA Operating Temperature:-40℃~+85℃@(TA) Operating Temperature:-40℃~+85℃@(TA)"
+      },
+      "description": "Output Type:Adjustable Output Voltage:2.495V~36V Output Voltage:2.495V~36V Output Current:100mA Tolerance:±1% Tolerance:±1% Minimum Cathode Current for Regulation:700μA Operating Temperature:-40℃~+85℃@(TA) Operating Temperature:-40℃~+85℃@(TA)",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "aadb193316b8480ca93bbe0b32181bd6|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795612",
+      "custom_tags": "[\"Power Management ICs\"]"
+    },
+    "036321d761d044f7bb61cd1d349a17e4": {
+      "title": "NCD0805Y1",
+      "attributes": {
+        "LCSC Part Name": "黄灯",
+        "Supplier Part": "C84261",
+        "Manufacturer": "国星光电",
+        "Manufacturer Part": "NCD0805Y1",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200820/C84261_818F20E00B0DEBCAFE3D9691CF5E5FF5.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "e0e1031b18e24d5b9a99962f5c7abee2",
+        "Designator": "LED?",
+        "Footprint": "6b01587976954d87bc32fe9460dfd5b1",
+        "3D Model": "6ccd75a2b5134d6ab756ecf3c14a7290",
+        "3D Model Title": "LED0805-RD",
+        "3D Model Transform": "79.527,49.2125,0,0,0,0,0,0,0",
+        "Emitted Color": "yellow",
+        "Description": "Emitted Color:yellow"
+      },
+      "description": "Emitted Color:yellow",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d511e87f113540e8882b806c78fbc906|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795747",
+      "custom_tags": "[\"Optoelectronics\"]"
+    },
+    "d785f4d707834c68833ff287dd2649d4": {
+      "title": "17-21/GHC-XS1T2M/3T",
+      "attributes": {
+        "LCSC Part Name": "翠绿LED",
+        "Supplier Part": "C63855",
+        "Manufacturer": "EVERLIGHT(台湾亿光)",
+        "Manufacturer Part": "17-21/GHC-XS1T2M/3T",
+        "Supplier Footprint": "0805",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20151222/1457707652176.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "68b64ab6e93740ac8da41b38883da8cd",
+        "Designator": "LED?",
+        "Footprint": "6b01587976954d87bc32fe9460dfd5b1",
+        "3D Model": "6ccd75a2b5134d6ab756ecf3c14a7290",
+        "3D Model Title": "LED0805-RD",
+        "3D Model Transform": "79.527,49.2125,0,0,0,0,0,0,0",
+        "Emitted Color": "Emerald",
+        "Diode Configuration": "-",
+        "Lens Color": "Colorless transparence",
+        "Dominant Wavelength": "515nm~530nm",
+        "Peak Wavelength": "518nm",
+        "Color Temperature": "-",
+        "Luminous Flux (@25℃)": "-",
+        "Forward Current": "20mA",
+        "Forward Voltage (VF)": "3.95V",
+        "Luminous Intensity": "450mcd",
+        "Power Dissipation": "75mW",
+        "Viewing Angle": "140°",
+        "Mounting Sytle": "Positive post",
+        "Operating Temperature": "-40℃~+85℃",
+        "Description": "Emitted Color:Emerald Diode Configuration:- Lens Color:Colorless transparence Dominant Wavelength:515nm~530nm Dominant Wavelength:515nm~530nm Peak Wavelength:518nm Color Temperature:- Color Temperature:- Luminous Flux (@25℃):- Forward Current:20mA Forward Voltage (VF):3.95V Luminous Intensity:450mcd Power Dissipation:75mW Viewing Angle:140° Mounting Sytle:Positive post Operating Temperature:-40℃~+85℃ Operating Temperature:-40℃~+85℃"
+      },
+      "description": "Emitted Color:Emerald Diode Configuration:- Lens Color:Colorless transparence Dominant Wavelength:515nm~530nm Dominant Wavelength:515nm~530nm Peak Wavelength:518nm Color Temperature:- Color Temperature:- Luminous Flux (@25℃):- Forward Current:20mA Forward Voltage (VF):3.95V Luminous Intensity:450mcd Power Dissipation:75mW Viewing Angle:140° Mounting Sytle:Positive post Operating Temperature:-40℃~+85℃ Operating Temperature:-40℃~+85℃",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d324b22a53514c3eb552d0e8ba876704|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795741",
+      "custom_tags": "[\"Optoelectronics\"]"
+    },
+    "fab2b7aa945a4e88a5dc3be6f59d5022": {
+      "title": "PZ254R-11-04P",
+      "attributes": {
+        "LCSC Part Name": "2.54mm 1x4P 弯插 方针",
+        "Supplier Part": "C492412",
+        "Manufacturer": "XFCN(兴飞)",
+        "Manufacturer Part": "PZ254R-11-04P",
+        "Supplier Footprint": "插件,P=2.54mm",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200309/C492412_B0EFFC1946AB079B8871416C4A09EF6C.pdf",
+        "Supplier": "LCSC",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Symbol": "15b333e1fde64d59b82b53ce3d4740f7",
+        "Designator": "H?",
+        "Footprint": "522c929acbfb4e5e9114b252c726afb5",
+        "3D Model": "d6c429cf28314298a2074cefd68172f0",
+        "3D Model Title": "HDR-TH_4P-P2.54-M-WI-1X4P",
+        "3D Model Transform": "399.999,417.322,0,180,0,0,0,-196.85,-118.11",
+        "Pitch": "2.54mm",
+        "Number of Pins": "4",
+        "Number of Rows": "",
+        "Pin Structure": "1x4P",
+        "Row Spacing": "-",
+        "Mounting Type": "Shrouded",
+        "Circluar Pins/Square Pins": "Square Pins",
+        "Current Rating (Max)": "-",
+        "Voltage Rating (Max)": "-",
+        "Length of Mating Pin": "6mm",
+        "Insulation Height": "2.5mm",
+        "Contact Material": "",
+        "Contact Plating": "-",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Color": "Black",
+        "Description": "Pitch:2.54mm Number of Pins:4 Number of Rows: Pin Structure:1x4P Row Spacing:- Mounting Type:Shrouded Circluar Pins/Square Pins:Square Pins Current Rating (Max):- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Contact Material: Contact Plating:- Operating Temperature Range:-40℃~+105℃ Operating Temperature Range:-40℃~+105℃ Color:Black"
+      },
+      "description": "Pitch:2.54mm Number of Pins:4 Number of Rows: Pin Structure:1x4P Row Spacing:- Mounting Type:Shrouded Circluar Pins/Square Pins:Square Pins Current Rating (Max):- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Contact Material: Contact Plating:- Operating Temperature Range:-40℃~+105℃ Operating Temperature Range:-40℃~+105℃ Color:Black",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "744b9cb4a0114d308f3d5187c0904606|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795361",
+      "custom_tags": "[\"Connectors\"]"
+    },
+    "66eb74d0a1ec449bbcaed99fe1934f42": {
+      "title": "HDR-M_2.54_1x4P",
+      "attributes": {
+        "Convert to PCB": "yes",
+        "Add into BOM": "yes",
+        "Designator": "H?",
+        "Supplier Part": "C492403",
+        "Supplier Footprint": "插件",
+        "Symbol": "dcb721a9693a4e45ad0813275da85235",
+        "Footprint": "51175c3a972d4b1a812d06fa61499c8a",
+        "3D Model": "112f4d05e8d64e99ab9a333894bea4f9",
+        "3D Model Title": "HDR-TH_4P-P2.54-M-LI-1X4P",
+        "3D Model Transform": "399.999,104.7242,0,0,0,0,0,0,-118.11",
+        "Pin Structure": "1x4P",
+        "Pitch": "2.54mm",
+        "Row Spacing": "-",
+        "Circluar Pins/Square Pins": "Square Pins",
+        "Mounting Type": "Straight",
+        "Number of Rows": "Plugin",
+        "Number of Pins": "4P",
+        "Current Rating (Max)": "-",
+        "Voltage Rating (Max)": "-",
+        "Length of Mating Pin": "6mm",
+        "Insulation Height": "2.5mm",
+        "Length of End Connection Pin": "3mm",
+        "Contact Material": "",
+        "Contact Plating": "-",
+        "Operating Temperature Range": "-40℃~+105℃",
+        "Color": "Black",
+        "Description": "Pin Structure:1x4P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Square Pins Mounting Type:Straight Number of Rows:Plugin Number of Pins:4P Current Rating (Max):- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connection Pin:3mm Contact Material: Contact Plating:- Operating Temperature Range:-40℃~+105℃ Operating Temperature Range:-40℃~+105℃ Color:Black"
+      },
+      "description": "Pin Structure:1x4P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Square Pins Mounting Type:Straight Number of Rows:Plugin Number of Pins:4P Current Rating (Max):- Voltage Rating (Max):- Length of Mating Pin:6mm Insulation Height:2.5mm Length of End Connection Pin:3mm Contact Material: Contact Plating:- Operating Temperature Range:-40℃~+105℃ Operating Temperature Range:-40℃~+105℃ Color:Black",
+      "tags": {
+        "parent_tag": [],
+        "child_tag": []
+      },
+      "images": [
+        ""
+      ],
+      "source": "d5e86a4f70d24c6c950b9ff10d30894b|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1660795750",
+      "custom_tags": "[\"Connectors\"]"
+    }
+  },
+  "boards": {
+    "Board1": {
+      "schematic": "7036b6bf893342488b0e0b569a3ef818",
+      "pcb": "6ee3248582f243c39957ca2415e7f5d7"
+    }
+  },
+  "config": {
+    "title": "casomiera1",
+    "cbbProject": 0,
+    "defaultSheet": "b65d1b8d4aaf4cb29278b62f75c74ae0",
+    "editorVersion": "2.2.45.4"
+  }
+}
